@@ -9,4 +9,5 @@ Vagrant.configure(2) do |config|
   # Sync Folders
   config.vm.synced_folder '.', '/vagrant', disabled: true
   config.vm.synced_folder './folders', '/syncfolders'
+  config.vm.synced_folder './proj04webapp/www', '/syncfolders/nginxdocker/webapp'
 end
