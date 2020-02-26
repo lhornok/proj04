@@ -1,6 +1,9 @@
 # proj04
 vagrant docker nginx projet No 4 pour Openclassrooms
 
+Commande pour cloner le git et le sous module :
+git clone --recurse-submodules https://github.com/lhornok/proj04.git
+
 Sous module GIT :
 - proj04webapp contient des pages HTML pour le serveur nginx
 
